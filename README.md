@@ -21,9 +21,8 @@ Unlike some datasets where 1 represents an unhealthy state, this dataset follows
 
 To verify this, the dataset's target names can be checked using:
 
-from sklearn.datasets import load_breast_cancer
-bc = load_breast_cancer()
-print(bc.target_names)  # Output: ['malignant' 'benign']
+print(bc.target_names) 
+# Output: ['malignant' 'benign']
 
 This confirms that 0 corresponds to Malignant cases, while 1 represents Benign cases.
 
