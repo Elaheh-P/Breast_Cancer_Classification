@@ -7,22 +7,16 @@ The goal of this project is to compare multiple classification models and analyz
 
 ## Understanding the Dataset Labels
 
-In the Breast Cancer Wisconsin Dataset, the class labels are defined as:
+Unlike some datasets where 1 represents an unhealthy state, this dataset follows the opposite convention:
 
 Benign (1) → Healthy (No Cancer)
 
 Malignant (0) → Unhealthy (Cancer Present)
 
-Unlike some datasets where 1 represents an unhealthy state, this dataset follows the opposite convention:
-
-1 = Benign (No Cancer)
-
-0 = Malignant (Cancer Present)
-
 To verify this, the dataset's target names can be checked using:
 
-print(bc.target_names) 
-Output: ['malignant' 'benign']
+- print(bc.target_names) 
+- Output: ['malignant' 'benign']
 
 This confirms that 0 corresponds to Malignant cases, while 1 represents Benign cases.
 
