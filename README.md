@@ -40,18 +40,21 @@ We plotted bar charts to visualize and compare each model's:
 - **Precision**
 - **F1-Score**
 
-## 📊 Results Summary
-  Model                    Train Accuracy  Test Accuracy    Recall     Precision     F1-Score  
-**Naive Bayes**              0.936264       0.964912       0.985915    0.958904      0.972222   
-**KNN**                      0.975824       0.964912       0.971831    0.971831      0.971831   
-**Decision Tree**            0.980220       0.964912       1.000000    0.946667      0.972603   
-**Random Forest**            0.995604       0.964912       0.985915    0.958904      0.972222   
-**SVM**                      0.989011       0.982456       1.000000    0.972603      0.986111   
-**Logistic Regression**      0.969231       0.982456       1.000000    0.972603      0.986111   
-**ANN**                      0.993407       0.982456       1.000000    0.972603      0.986111   
+## 📊 Model Performance Results
+
+| Model               | Train Accuracy | Test Accuracy | Recall  | Precision | F1-Score |
+|---------------------|---------------|--------------|---------|-----------|----------|
+| Naive Bayes        | 0.936264      | 0.964912     | 0.985915 | 0.958904  | 0.972222 |
+| KNN                | 0.975824      | 0.964912     | 0.971831 | 0.971831  | 0.971831 |
+| Decision Tree      | 0.980220      | 0.964912     | 1.000000 | 0.946667  | 0.972603 |
+| Random Forest      | 0.995604      | 0.964912     | 0.985915 | 0.958904  | 0.972222 |
+| SVM                | 0.989011      | 0.982456     | 1.000000 | 0.972603  | 0.986111 |
+| Logistic Regression| 0.969231      | 0.982456     | 1.000000 | 0.972603  | 0.986111 |
+| ANN                | 0.993407      | 0.982456     | 1.000000 | 0.972603  | 0.986111 |
+
+
 
 > 🚀 **Key Insights:**
-
 > The best-performing models in terms of accuracy were "Random Forest" and "ANN", with an accuracy of  0.995604  and  0.993407 respectively.
 > The highest recall (equal to 1) was achieved by "Decision Tree" , "SVM", "Logistic Regression" , and "ANN" making them the best choice for detecting cancer cases.
 > The highest precision was seen in "SVM", "Logistic Regression" , and "ANN", meaning they make fewer false-positive predictions.
