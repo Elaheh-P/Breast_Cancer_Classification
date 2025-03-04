@@ -75,10 +75,21 @@ We plotted bar charts to visualize and compare each model's:
 - The highest precision was seen in "SVM", "Logistic Regression" , and "ANN", meaning they make fewer false-positive predictions.
 - The best F1-score was achieved by "SVM", "Logistic Regression" , and "ANN", suggesting a balanced approach between recall and precision.
 
+**Confusion Matrix Analysis**
+
+To further understand how each model performs, confusion matrices were generated to examine false positives and false negatives.
+A confusion matrix shows:
+
+-True Positives (TP): Correctly classified malignant cases.
+-False Positives (FP): Benign cases incorrectly classified as malignant.
+-True Negatives (TN): Correctly classified benign cases.
+-False Negatives (FN): Malignant cases incorrectly classified as benign (worst case in medical diagnosis).
+
 **Final Conclusion:**
 
 The models SVM, Logistic Regression, and ANN performed equally well in terms of both Precision and Recall.
 Since these two factors are critical for medical diagnosis, we can confidently choose any of these three models depending on computational efficiency or other constraints.
+On the other hand based on the confusion metrices no Malignant case was missed by all these three models, making them good choices.
 If the goal is real-time predictions, Logistic Regression may be preferable due to its simplicity and speed.
 If we need a more flexible decision boundary, SVM or ANN could be better choices.
 
