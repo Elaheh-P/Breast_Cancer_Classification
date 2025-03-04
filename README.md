@@ -89,7 +89,7 @@ A confusion matrix shows:
 
 The models SVM, Logistic Regression, and ANN performed equally well in terms of both Precision and Recall.
 Since these two factors are critical for medical diagnosis, we can confidently choose any of these three models depending on computational efficiency or other constraints.
-On the other hand based on the confusion metrices no Malignant case was missed by all these three models, making them good choices.
+On the other hand based on the confusion metrices the model does not miss any benign cases but does miss 2 malignant ones.
 If the goal is real-time predictions, Logistic Regression may be preferable due to its simplicity and speed.
 If we need a more flexible decision boundary, SVM or ANN could be better choices.
 
