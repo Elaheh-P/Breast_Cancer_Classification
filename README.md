@@ -80,10 +80,10 @@ We plotted bar charts to visualize and compare each model's:
 To further understand how each model performs, confusion matrices were generated to examine false positives and false negatives.
 A confusion matrix shows:
 
--True Positives (TP): Correctly classified malignant cases.
--False Positives (FP): Benign cases incorrectly classified as malignant.
--True Negatives (TN): Correctly classified benign cases.
--False Negatives (FN): Malignant cases incorrectly classified as benign (worst case in medical diagnosis).
+- True Positives (TP): Correctly classified malignant cases.
+- False Positives (FP): Benign cases incorrectly classified as malignant.
+- True Negatives (TN): Correctly classified benign cases.
+- False Negatives (FN): Malignant cases incorrectly classified as benign (worst case in medical diagnosis).
 
 **Final Conclusion:**
 
