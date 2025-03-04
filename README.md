@@ -1,11 +1,11 @@
 # 🩺 Breast Cancer Classification - Machine Learning Project
 
-## 📌 Introduction
+##  Introduction
 Breast cancer is one of the most common cancers worldwide. Early and accurate diagnosis can significantly improve patient outcomes. This project applies **seven different machine learning models** to classify breast cancer using the **Breast Cancer Wisconsin Dataset** from `sklearn.datasets.load_breast_cancer`.
 
 The goal of this project is to compare multiple classification models and analyze their performance based on different evaluation metrics.
 
-## 📂 What Was Done
+## What Was Done
 ### **1️⃣ Data Preprocessing**
 - Loaded the dataset and examined feature distributions.
 - Split the data into **training (80%)** and **testing (20%)** sets.
@@ -54,7 +54,7 @@ We plotted bar charts to visualize and compare each model's:
 
 
 
-> 🚀 **Key Insights:**
+>  **Key Insights:**
 - The best-performing models in terms of accuracy were "Random Forest" and "ANN", with an accuracy of  0.995604  and  0.993407 respectively.
 - The highest recall (equal to 1) was achieved by "Decision Tree" , "SVM", "Logistic Regression" , and "ANN" making them the best choice for detecting cancer cases.
 - The highest precision was seen in "SVM", "Logistic Regression" , and "ANN", meaning they make fewer false-positive predictions.
@@ -71,5 +71,5 @@ If we need a more flexible decision boundary, SVM or ANN could be better choices
 If you have any questions or feedback, feel free to reach out!
 - **LinkedIn:** www.linkedin.com/in/elaheh-p-9918432a6
 
-🚀 **If you find this project useful, please ⭐ star the repository!** ⭐
+ **If you find this project useful, please ⭐ star the repository!** ⭐
 
