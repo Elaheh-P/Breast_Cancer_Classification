@@ -55,10 +55,10 @@ We plotted bar charts to visualize and compare each model's:
 
 
 > 🚀 **Key Insights:**
-> The best-performing models in terms of accuracy were "Random Forest" and "ANN", with an accuracy of  0.995604  and  0.993407 respectively.
-> The highest recall (equal to 1) was achieved by "Decision Tree" , "SVM", "Logistic Regression" , and "ANN" making them the best choice for detecting cancer cases.
-> The highest precision was seen in "SVM", "Logistic Regression" , and "ANN", meaning they make fewer false-positive predictions.
-> The best F1-score was achieved by "SVM", "Logistic Regression" , and "ANN", suggesting a balanced approach between recall and precision.
+- The best-performing models in terms of accuracy were "Random Forest" and "ANN", with an accuracy of  0.995604  and  0.993407 respectively.
+- The highest recall (equal to 1) was achieved by "Decision Tree" , "SVM", "Logistic Regression" , and "ANN" making them the best choice for detecting cancer cases.
+- The highest precision was seen in "SVM", "Logistic Regression" , and "ANN", meaning they make fewer false-positive predictions.
+- The best F1-score was achieved by "SVM", "Logistic Regression" , and "ANN", suggesting a balanced approach between recall and precision.
 
 **Final Conclusion:**
 
