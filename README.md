@@ -69,7 +69,7 @@ If we need a more flexible decision boundary, SVM or ANN could be better choices
 
 ## ✉ Contact
 If you have any questions or feedback, feel free to reach out!
-- **LinkedIn:** 
+- **LinkedIn:** www.linkedin.com/in/elaheh-p-9918432a6
 
 🚀 **If you find this project useful, please ⭐ star the repository!** ⭐
 
