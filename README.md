@@ -21,12 +21,12 @@ To verify this, the dataset's target names can be checked using:
 This confirms that 0 corresponds to Malignant cases, while 1 represents Benign cases.
 
 ## What Was Done
-### **1️⃣ Data Preprocessing**
+### **1️ Data Preprocessing**
 - Loaded the dataset and examined feature distributions.
 - Split the data into **training (80%)** and **testing (20%)** sets.
 - Applied **MinMaxScaler** to normalize feature values between 0 and 1.
 
-### **2️⃣ Model Training**
+### **2️ Model Training**
 We trained and compared the following **7 machine learning models**:
 - **Naive Bayes**
 - **K-Nearest Neighbors (KNN)**
@@ -38,7 +38,7 @@ We trained and compared the following **7 machine learning models**:
 
 Each model was trained using **Scikit-learn**, with carefully tuned hyperparameters.
 
-### **3️⃣ Model Evaluation**
+### **3️ Model Evaluation**
 The models were evaluated using:
 - **Accuracy**
 - **Precision**
@@ -47,7 +47,7 @@ The models were evaluated using:
 
 Then these metrics were stored in a **Pandas DataFrame** for easy comparison and visualization.
 
-### **4️⃣ Results & Visualization**
+### **4️ Results & Visualization**
 We plotted bar charts to visualize and compare each model's:
 - **Test Accuracy**
 - **Train Accuracy**
@@ -55,7 +55,7 @@ We plotted bar charts to visualize and compare each model's:
 - **Precision**
 - **F1-Score**
 
-## 📊 Model Performance Results
+##  Model Performance Results
 
 | Model               | Train Accuracy | Test Accuracy | Recall  | Precision | F1-Score |
 |---------------------|---------------|--------------|---------|-----------|----------|
@@ -97,5 +97,5 @@ If we need a more flexible decision boundary, SVM or ANN could be better choices
 If you have any questions or feedback, feel free to reach out!
 - **LinkedIn:** www.linkedin.com/in/elaheh-p-9918432a6
 
- **If you find this project useful, please ⭐ star the repository!** ⭐
+ **If you find this project useful, please ⭐ star the repository!** 
 
